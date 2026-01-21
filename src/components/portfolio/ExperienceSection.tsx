@@ -45,11 +45,11 @@ const timelineData: TimelineItem[] = [
   },
   {
     type: "work",
-    title: "QA Engineer & Full Stack Developer",
+    title: "Full Stack Developer",
     organization: "University Private Project (Freelance)",
     period: "Oct 2024 – Present",
-    description: "Working with university professor on a private project as a freelance developer and QA engineer.",
-    highlights: ["Full-stack development", "Quality assurance testing", "Collaborating with academic team"],
+    description: "Working with university professor on a private project as a freelance developer.",
+    highlights: ["Full-stack development", "Collaborating with academic team"],
   },
   {
     type: "work",
