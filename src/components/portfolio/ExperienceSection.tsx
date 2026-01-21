@@ -37,6 +37,14 @@ const timelineData: TimelineItem[] = [
   // Work Experience
   {
     type: "work",
+    title: "QA Engineer",
+    organization: "Adbarcadero, Skopje",
+    period: "Oct 2025 – Present",
+    description: "Working as a QA Engineer ensuring software quality through comprehensive testing strategies.",
+    highlights: ["Manual & automated testing", "Bug tracking & reporting", "Quality assurance processes"],
+  },
+  {
+    type: "work",
     title: "QA Engineer & Full Stack Developer",
     organization: "University Private Project (Freelance)",
     period: "Oct 2024 – Present",
@@ -82,6 +90,7 @@ const timelineData: TimelineItem[] = [
     description: "Certificate for successful completion of the beginner computer programming course.",
   },
 ];
+
 const ExperienceSection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
