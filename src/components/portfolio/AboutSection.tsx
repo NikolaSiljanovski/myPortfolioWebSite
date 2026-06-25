@@ -59,11 +59,15 @@ const AboutSection = () => {
             >
               {/* Photo */}
               <div className="flex justify-center md:justify-start mb-6">
-                <div className="relative w-32 h-32 rounded-2xl overflow-hidden border-2 border-gradient-mid/30 shadow-glow">
+                <div className="relative w-48 h-56 rounded-2xl overflow-hidden border-2 border-gradient-mid/30 shadow-glow">
                   <img 
                     src={profilePhoto} 
                     alt="Nikola Siljanovski" 
                     className="w-full h-full object-cover"
+                    style={{
+                      objectPosition: "center 35%",
+                      filter: "brightness(1.08) contrast(1.05)"
+                    }}
                   />
                 </div>
               </div>
