@@ -94,7 +94,12 @@ const HeroSection = () => {
               asChild
               className="w-full sm:w-auto"
             >
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <a
+                href="/resume.pdf"
+                download="Nikola_Siljanovski_CV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FileText className="w-4 h-4 mr-1" />
                 Download CV
               </a>
